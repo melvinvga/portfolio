@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- ========== box icones ========== -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfolio Melvin</title>
+</head>
+
+<body>
+    <!--========== header ==========-->
+    <header class="l-header">
+        <nav class="nav bd-grille">
+            <div>
+                <a href="#" class="nav__logo">Melvin VIOUGEA</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__liste">
+                    <li class="nav__item"><a href="#accueil" class="nav__link active">Accueil</a></li>
+                    <li class="nav__item"><a href="#apropos" class="nav__link">À propos</a></li>
+                    <li class="nav__item"><a href="#competences" class="nav__link">Compétences</a></li>
+                    <li class="nav__item"><a href="#projet" class="nav__link">Projets</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--========== accueil ==========-->
+        <section class="accueil bd-grille" id="accueil">
+            <div class="accueil__data">
+                <h1 class="accueil__title">Bonjour,<br>Je suis <span class="accueil__title-color">Melvin</span><br> étudiant en dev'</h1>
+                <a href="#contact" class="bouton">Contact</a>
+            </div>
+
+            <div class="accueil__social">
+                <a href="https://www.linkedin.com/in/melvin-viougea/" class="accueil__social-icone"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/melvinvga" class="accueil__social-icone"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="accueil__img">
+                <svg class="accueil__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                        <image class="accueil__blob-img" x='12' y='18' href="assets/img/profil.png" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--========== apropos ==========-->
+        <section class="apropos section " id="apropos">
+            <h2 class="section-title">À propos</h2>
+
+            <div class="apropos__conteneur bd-grille">
+                <div class="apropos__img">
+                    <img src="assets/img/about.jpeg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="apropos__subtitle">Je m'appelle Melvin</h2>
+                    <p class="apropos__texte">Étudiant, approfondissant des connaissances et des expériences, travaillant dans l'informatique et particulièrement en développement web/application, fournissant un travail de qualité.</p>
+                    <a download="" href="assets/pdf/Melvin_Viougea_CV.pdf" class="bouton">CV</a>
+                </div>
+            </div>
+        </section>
+
+        <!--========== compétences ==========-->
+        <section class="competences section" id="competences">
+            <h2 class="section-title">Compétences</h2>
+
+            <div class="competences__conteneur bd-grille">
+                <div>
+                    <h2 class="competences__subtitle">Compétences professionnelles</h2>
+                    <p class="competences__texte">Mes études m'apprennent diverses compétences en front et back end ainsi qu'en programmation/POO et le SQL. Le reste de la formation est constitué d'administration réseaux et de cybersécurité.</p>
+                    <div class="competences__data">
+                        <div class="competences__noms">
+                            <i class='bx bxl-c-plus-plus competences__icone'></i>
+                            <span class="competences__nom">C++</span>
+                        </div>
+                        <div class="competences__bar competences__cpp">
+
+                        </div>
+                        <div>
+                            <span class="competences__pourcentage">75%</span>
+                        </div>
+                    </div>
+                    <div class="competences__data">
+                        <div class="competences__noms">
+                            <i class='bx bxl-html5 competences__icone'></i>
+                            <span class="competences__nom">HTML5</span>
+                        </div>
+                        <div class="competences__bar competences__html">
+
+                        </div>
+                        <div>
+                            <span class="competences__pourcentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="competences__data">
+                        <div class="competences__noms">
+                            <i class='bx bxl-css3 competences__icone'></i>
+                            <span class="competences__nom">CSS3</span>
+                        </div>
+                        <div class="competences__bar competences__css">
+
+                        </div>
+                        <div>
+                            <span class="competences__pourcentage">70%</span>
+                        </div>
+                    </div>
+                    <div class="competences__data">
+                        <div class="competences__noms">
+                            <i class='bx bxl-javascript competences__icone'></i>
+                            <span class="competences__nom">JAVASCRIPT</span>
+                        </div>
+                        <div class="competences__bar competences__js">
+
+                        </div>
+                        <div>
+                            <span class="competences__pourcentage">55%</span>
+                        </div>
+                    </div>
+                    <div class="competences__data">
+                        <div class="competences__noms">
+                            <i class='bx bxl-php competences__icone'></i>
+                            <span class="competences__nom">PHP</span>
+                        </div>
+                        <div class="competences__bar competences__php">
+
+                        </div>
+                        <div>
+                            <span class="competences__pourcentage">60%</span>
+                        </div>
+                    </div>
+                    <div class="competences__data">
+                        <div class="competences__noms">
+                            <i class='bx bx-data competences__icone'></i>
+                            <span class="competences__nom">SQL</span>
+                        </div>
+                        <div class="competences__bar competences__sql">
+
+                        </div>
+                        <div>
+                            <span class="competences__pourcentage">65%</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div>
+                    <img src="assets/img/work.jpg" alt="" class="competences__img">
+                </div>
+            </div>
+        </section>
+
+        <!--========== projet ==========-->
+        <section class="projet section" id="projet">
+            <h2 class="section-title">Projets</h2>
+
+            <div class="projet__conteneur bd-grille">
+                <div class="projet__img">
+                    <a href="https://drive.google.com/drive/folders/1vD8k2ZRZwClr1ohZ6dB7Rmqte70IlEDH">
+                        <img src="assets/img/work1.jpg" alt="cpp">
+                    </a>
+                </div>
+                <div class="projet__img">
+                    <a href="https://drive.google.com/drive/folders/1GS8Ea9Q7hupbArcgFRze1anWqfYfVGin">
+                        <img src="assets/img/work2.jpg" alt="qt">
+                    </a>
+                </div>
+                <div class="projet__img">
+                    <a href="https://drive.google.com/drive/folders/1XepOGZ8Ytgi7fWybRLNeVzVH0s_ohKD_">
+                        <img src="assets/img/work3.jpg" alt="web">
+                    </a>
+                </div>
+                <div class="projet__img">
+                    <a href="https://drive.google.com/drive/folders/17F6VmjMkV96zfkuKbCUJgsluVj6D_L8j">
+                        <img src="assets/img/work4.jpg" alt="bdd">
+                    </a>
+                </div>
+                <div class="projet__img">
+                    <a href="https://drive.google.com/drive/folders/1irh_RQaScS3sD0iCnRXK41rya_AmDI0X">
+                        <img src="assets/img/work5.jpg" alt="cybersecu">
+                    </a>
+                </div>
+                <div class="projet__img">
+                    <a href="https://drive.google.com/drive/folders/1-ORucI8XrNhwjFipTKeplZsDGBysI-ym">
+                        <img src="assets/img/work6.jpg" alt="reseaux">
+                    </a>
+                </div>
+                <div class="projet__img">
+                    <a href="https://drive.google.com/drive/folders/17j6JMAx6YEOR6nYQuOR4gBWf1vgDooKN">
+                        <img src="assets/img/work7.jpg" alt="stage1">
+                    </a>
+                </div>
+                <div class="projet__img">
+                    <a href="https://drive.google.com/drive/folders/1UpwqyNZGQZsL3ou5hhZf1LyhSm82BrOR">
+                        <img src="assets/img/work8.jpg" alt="stage2">
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!--========== contact ==========-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__conteneur bd-grille">
+                <form name="formulaire" class="contact__formulaire" action="recupDonnees.php" method="post">
+                    <input type="text" name="nom" placeholder="Nom" class="contact__input">
+                    <input type="email" name="email" placeholder="Email" class="contact__input">
+                    <textarea id="message" name="message" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="submit" value="Envoyer" name="submit" class="contact__bouton bouton">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--========== footer ==========-->
+    <footer class="footer">
+        <p class="footer__title">Melvin</p>
+        <div class="footer__social">
+            <a href="https://www.facebook.com/melvin.vga/" class="footer__icone"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/melvin_vga/" class="footer__icone"><i class='bx bxl-instagram'></i></a>
+            <a href="https://twitter.com/melvin_vga" class="footer__icone"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <p>&#169; Melvin Viougea. All right reserved</p>
+    </footer>
+    <!--========== scroll up ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="bx bx-up-arrow-alt scrollup__icone"></i>
+    </a>
+
+    <!--========== scroll revel ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== main JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
