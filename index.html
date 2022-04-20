@@ -20,23 +20,22 @@
             <div>
                 <a href="#" class="nav__logo">Melvin VIOUGEA</a>
             </div>
-
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__liste">
                     <li class="nav__item"><a href="#accueil" class="nav__link active">Accueil</a></li>
                     <li class="nav__item"><a href="#apropos" class="nav__link">À propos</a></li>
+                    <li class="nav__item"><a href="#etudes" class="nav__link">Etudes</a></li>
                     <li class="nav__item"><a href="#competences" class="nav__link">Compétences</a></li>
-                    <li class="nav__item"><a href="#projet" class="nav__link">Projets</a></li>
+                    <li class="nav__item"><a href="#stages" class="nav__link">Stages</a></li>
+                    <li class="nav__item"><a href="#projets" class="nav__link">Projets</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
             </div>
-
             <div class="nav__toggle" id="nav-toggle">
                 <i class='bx bx-menu'></i>
             </div>
         </nav>
     </header>
-
     <main class="l-main">
         <!--========== accueil ==========-->
         <section class="accueil bd-grille" id="accueil">
@@ -44,12 +43,10 @@
                 <h1 class="accueil__title">Bonjour,<br>Je suis <span class="accueil__title-color">Melvin</span><br> étudiant en dev'</h1>
                 <a href="#contact" class="bouton">Contact</a>
             </div>
-
             <div class="accueil__social">
                 <a href="https://www.linkedin.com/in/melvin-viougea/" class="accueil__social-icone"><i class='bx bxl-linkedin'></i></a>
                 <a href="https://github.com/melvinvga" class="accueil__social-icone"><i class='bx bxl-github'></i></a>
             </div>
-
             <div class="accueil__img">
                 <svg class="accueil__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <mask id="mask0" mask-type="alpha">
@@ -68,8 +65,7 @@
                 </svg>
             </div>
         </section>
-
-        <!--========== apropos ==========-->
+        <!--==========a propos==========-->
         <section class="apropos section " id="apropos">
             <h2 class="section-title">À propos</h2>
 
@@ -77,15 +73,72 @@
                 <div class="apropos__img">
                     <img src="assets/img/about.jpeg" alt="">
                 </div>
-
                 <div>
                     <h2 class="apropos__subtitle">Je m'appelle Melvin</h2>
-                    <p class="apropos__texte">Étudiant, approfondissant des connaissances et des expériences, travaillant dans l'informatique et particulièrement en développement web/application, fournissant un travail de qualité.</p>
-                    <a download="" href="assets/pdf/Melvin_Viougea_CV.pdf" class="bouton">CV</a>
+                    <p class="apropos__texte">J'ai 21 ans et je suis originaire de Bordeaux. À l'heure actuelle, j'habite à Gap, loin de ma famille et de mon entourage. J'y fais mes études, un BTS en informatique.</p>
+                    <p class="apropos__texte">Je suis un passionné d'informatique depuis tout petit. Depuis que je fais de la programmation, je n'ai jamais eu l'idée de changer d'orientation, car celle-ci me passionne de jour en jour, à chaque nouvelle découverte.</p>
+                    <button id="open" class="bouton bouton__cv">Consulter mon CV</button>
+                    <a download="" href="assets/pdf/Melvin_Viougea_CV.pdf" class="bouton">Télécharger mon CV</a>
                 </div>
             </div>
         </section>
+        <!--========== etudes ==========-->
+        <section class="etudes section " id="etudes">
+            <h2 class="section-title">Mes études</h2>
 
+            <div class="etudes__conteneurnoflex bd-grille">
+                <div class="etudes__img">
+                    <img src="assets/img/lycee.jpeg" alt="">
+                </div>
+                <div>
+                    <h2 class="etudes__subtitle">Lycée dominique villars</h2>
+                    <p class="etudes__texte">
+                        Le lycée Dominique Villars est situé au centre de Gap. Il s'agit d'un lycée généale et technologique acceuillant egallement des étudiant post-bac. Le lycée propose donc le Brevet de technicien supérieur - Services informatiques aux organisations.
+                    </p>
+                </div>
+                <div>
+                    <h2 class="etudes__subtitle">La BTS SIO en queslques mots</h2>
+                    <p class="etudes__texte">Ce BTS est composé de 2 options. J'ai peronnellement prit l'option SLAM (développement). Voici les principales compétences aquises par ces options :</p>
+                    <div class="etudes__conteneur bd-grille">
+                        <div class="etudes__img">
+                            <ul>
+                                <li>
+                                    <p class="etudes__texte-title">Option SLAM (Developpeur) Solutions Logicielles et Applications Métier</p>
+                                </li>
+                                <li>
+                                    <p class="etudes__texte">– Réaliser des logiciels, des sites web</p>
+                                </li>
+                                <li>
+                                    <p class="etudes__texte">– Rédiger de la documentation liée à la solution applicative</p>
+                                </li>
+                                <li>
+                                    <p class="etudes__texte">– Former des utilisateurs</p>
+                                </li>
+                                <li>
+                                    <p class="etudes__texte">– Faire de la maintenance applicative</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>
+                                    <p class="etudes__texte-title">Option SISR (Réseau) Solutions d’Infrastructure et Systèmes et Réseaux</p>
+                                </li>
+                                <li>
+                                    <p class="etudes__texte">– Installer, administrer et gérer la maintenance des équipements et des réseaux informatiques.</p>
+                                </li>
+                                <li>
+                                    <p class="etudes__texte">– Intervenir au niveau de la configuration, le suivi et l’optimisation des serveurs</p>
+                                </li>
+                                <li>
+                                    <p class="etudes__texte">– Intégrer et sécuriser des postes clients et des équipements d’interconnexion.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a download="" href="https://www.onisep.fr/Ressources/Univers-Formation/Formations/Post-bac/bts-services-informatiques-aux-organisations-option-a-solutions-d-infrastructure-systemes-et-reseaux" class="bouton">+ d'info sur le BTS SIO</a>
+                </div>
+        </section>
         <!--========== compétences ==========-->
         <section class="competences section" id="competences">
             <h2 class="section-title">Compétences</h2>
@@ -93,14 +146,14 @@
             <div class="competences__conteneur bd-grille">
                 <div>
                     <h2 class="competences__subtitle">Compétences professionnelles</h2>
-                    <p class="competences__texte">Mes études m'apprennent diverses compétences en front et back end ainsi qu'en programmation/POO et le SQL. Le reste de la formation est constitué d'administration réseaux et de cybersécurité.</p>
+                    <p class="competences__texte">Mes études m'ont apprise de nombreuse compétences en informatique et principalement en programmation, j'ai pu apprendre la programmation objet en C++ sur QT. Pour le reste de la formation, il s'agissait principalement de front-end
+                        et back-end. La plupart des projets étaient reliés a des database approfondissant donc nos compétences en SQL. J'ai également appris la navigation sur Linux, car toute ma formation était basée dessus.</p>
                     <div class="competences__data">
                         <div class="competences__noms">
                             <i class='bx bxl-c-plus-plus competences__icone'></i>
                             <span class="competences__nom">C++</span>
                         </div>
                         <div class="competences__bar competences__cpp">
-
                         </div>
                         <div>
                             <span class="competences__pourcentage">75%</span>
@@ -112,7 +165,6 @@
                             <span class="competences__nom">HTML5</span>
                         </div>
                         <div class="competences__bar competences__html">
-
                         </div>
                         <div>
                             <span class="competences__pourcentage">90%</span>
@@ -124,7 +176,6 @@
                             <span class="competences__nom">CSS3</span>
                         </div>
                         <div class="competences__bar competences__css">
-
                         </div>
                         <div>
                             <span class="competences__pourcentage">70%</span>
@@ -136,7 +187,6 @@
                             <span class="competences__nom">JAVASCRIPT</span>
                         </div>
                         <div class="competences__bar competences__js">
-
                         </div>
                         <div>
                             <span class="competences__pourcentage">55%</span>
@@ -148,7 +198,6 @@
                             <span class="competences__nom">PHP</span>
                         </div>
                         <div class="competences__bar competences__php">
-
                         </div>
                         <div>
                             <span class="competences__pourcentage">60%</span>
@@ -160,74 +209,101 @@
                             <span class="competences__nom">SQL</span>
                         </div>
                         <div class="competences__bar competences__sql">
-
                         </div>
                         <div>
                             <span class="competences__pourcentage">65%</span>
                         </div>
                     </div>
-
                 </div>
-
                 <div>
                     <img src="assets/img/work.jpg" alt="" class="competences__img">
                 </div>
             </div>
         </section>
+        <!--========== stages ==========-->
+        <section class="stages section " id="stages">
+            <h2 class="section-title">Stages</h2>
 
+            <div class="stages__conteneurnoflex bd-grille">
+                <div>
+                    <h2 class="stages__subtitle">Stage de première année</h2>
+                    <p class="stages__texte">Mon stage a été réalisé dans l'entreprise Computeris.</p>
+                    <h4 class="stages__subtitle">Présentation de l'entreprise</h4>
+                    <p class="stages__texte">L'entreprise met en relation des techniciens et des client pour divers mission sur le territoire français.</p>
+                    <h4 class="stages__subtitle">Objectif du stage</h4>
+                    <p class="stages__texte">Le but du stage était de développer un site web pour l'entreprise</p>
+                    <h4 class="stages__subtitle">Rapport de stage</h4>
+                    <div class="stages__conteneur bd-grille">
+                        <div class="stages__img">
+                            <a href="https://drive.google.com/drive/folders/17j6JMAx6YEOR6nYQuOR4gBWf1vgDooKN">
+                                <img src="assets/img/work7.jpg" alt="stage1">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="stages__title">Stage de deuxième année</h2>
+                    <p class="stages__texte">Mon stage a été réalisé dans l'entreprise Solution909.</p>
+                    <h4 class="stages__subtitle">Présentation de l'entreprise</h4>
+                    <p class="stages__texte">L'entreprise est une start-up récente qui propose diverses formations pour le métier de DPO. L'entreprise prévoit de nouvelle vois pour se développer.</p>
+                    <h4 class="stages__subtitle">Objectif du stage</h4>
+                    <p class="stages__texte">Le but du stage était de développer un site web pour l'entreprise, de corriger le site principal mis en production et de continuer un site actuel.</p>
+                    <h4 class="stages__subtitle">Rapport de stage</h4>
+                    <div class="stages__conteneur bd-grille">
+                        <div class="stages__img">
+                            <a href="https://drive.google.com/drive/folders/1UpwqyNZGQZsL3ou5hhZf1LyhSm82BrOR">
+                                <img src="assets/img/work8.jpg" alt="stage2">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </section>
         <!--========== projet ==========-->
-        <section class="projet section" id="projet">
+        <section class="projets section " id="projets">
             <h2 class="section-title">Projets</h2>
 
-            <div class="projet__conteneur bd-grille">
-                <div class="projet__img">
-                    <a href="https://drive.google.com/drive/folders/1vD8k2ZRZwClr1ohZ6dB7Rmqte70IlEDH">
-                        <img src="assets/img/work1.jpg" alt="cpp">
-                    </a>
+            <div class="projets__conteneurnoflex bd-grille">
+                <div>
+                    <h2 class="projets__subtitle">Projet NewWorld</h2>
+                    <p class="projets__texte">Dans ce projet, nous devions faire une application pour des producteurs.</p>
+                    <div class="projets__conteneur bd-grille">
+                        <div class="projets__img">
+                            <a href="https://drive.google.com/drive/folders/1GS8Ea9Q7hupbArcgFRze1anWqfYfVGin">
+                                <img src="assets/img/work2.jpg" alt="qt">
+                            </a>
+                        </div>
+                        <div class="projets__img">
+                            <a href="https://drive.google.com/drive/folders/1XepOGZ8Ytgi7fWybRLNeVzVH0s_ohKD_">
+                                <img src="assets/img/work3.jpg" alt="web">
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="projet__img">
-                    <a href="https://drive.google.com/drive/folders/1GS8Ea9Q7hupbArcgFRze1anWqfYfVGin">
-                        <img src="assets/img/work2.jpg" alt="qt">
-                    </a>
+                <div>
+                    <h2 class="projets__subtitle">Projet GSB</h2>
+                    <p class="projets__texte">Dans ce projet, nous devions reparer le code de l'application pour un laboratoire.</p>
+                    <div class="projets__conteneur bd-grille">
+                        <div class="projets__img">
+                            <a href="https://drive.google.com/drive/folders/17F6VmjMkV96zfkuKbCUJgsluVj6D_L8j">
+                                <img src="assets/img/work4.jpg" alt="bdd">
+                            </a>
+                        </div>
+                        <div class="projets__img">
+                            <a href="https://drive.google.com/drive/folders/1irh_RQaScS3sD0iCnRXK41rya_AmDI0X">
+                                <img src="assets/img/work5.jpg" alt="cybersecu">
+                            </a>
+                        </div>
+                        <div class="projets__img">
+                            <a href="https://drive.google.com/drive/folders/1-ORucI8XrNhwjFipTKeplZsDGBysI-ym">
+                                <img src="assets/img/work6.jpg" alt="reseaux">
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="projet__img">
-                    <a href="https://drive.google.com/drive/folders/1XepOGZ8Ytgi7fWybRLNeVzVH0s_ohKD_">
-                        <img src="assets/img/work3.jpg" alt="web">
-                    </a>
-                </div>
-                <div class="projet__img">
-                    <a href="https://drive.google.com/drive/folders/17F6VmjMkV96zfkuKbCUJgsluVj6D_L8j">
-                        <img src="assets/img/work4.jpg" alt="bdd">
-                    </a>
-                </div>
-                <div class="projet__img">
-                    <a href="https://drive.google.com/drive/folders/1irh_RQaScS3sD0iCnRXK41rya_AmDI0X">
-                        <img src="assets/img/work5.jpg" alt="cybersecu">
-                    </a>
-                </div>
-                <div class="projet__img">
-                    <a href="https://drive.google.com/drive/folders/1-ORucI8XrNhwjFipTKeplZsDGBysI-ym">
-                        <img src="assets/img/work6.jpg" alt="reseaux">
-                    </a>
-                </div>
-                <div class="projet__img">
-                    <a href="https://drive.google.com/drive/folders/17j6JMAx6YEOR6nYQuOR4gBWf1vgDooKN">
-                        <img src="assets/img/work7.jpg" alt="stage1">
-                    </a>
-                </div>
-                <div class="projet__img">
-                    <a href="https://drive.google.com/drive/folders/1UpwqyNZGQZsL3ou5hhZf1LyhSm82BrOR">
-                        <img src="assets/img/work8.jpg" alt="stage2">
-                    </a>
-                </div>
-
-            </div>
         </section>
-
         <!--========== contact ==========-->
         <section class="contact section" id="contact">
             <h2 class="section-title">Contact</h2>
-
             <div class="contact__conteneur bd-grille">
                 <form name="formulaire" class="contact__formulaire" action="recupDonnees.php" method="post">
                     <input type="text" name="nom" placeholder="Nom" class="contact__input">
@@ -238,7 +314,6 @@
             </div>
         </section>
     </main>
-
     <!--========== footer ==========-->
     <footer class="footer">
         <p class="footer__title">Melvin</p>
@@ -253,10 +328,23 @@
     <a href="#" class="scrollup" id="scroll-up">
         <i class="bx bx-up-arrow-alt scrollup__icone"></i>
     </a>
-
+    <!--========== modal ==========-->
+    <div class="modal__container" id="modal__container">
+        <div class="modal">
+            <button id="close" class="bouton__modal">X</button>
+            <img src="assets/img/cv.png" alt="">
+        </div>
+    </div>
+    <!--
+    <div class="modal__container" id="modal__container">
+        <div class="modal">
+            <button id="close" class="bouton__modal">X</button>
+            <embed src=assets/pdf/Melvin_Viougea_CV.pdf type='application/pdf' class="doc__pdf" />
+        </div>
+    </div>
+    -->
     <!--========== scroll revel ==========-->
     <script src="https://unpkg.com/scrollreveal"></script>
-
     <!--========== main JS ==========-->
     <script src="assets/js/main.js"></script>
 </body>

@@ -42,6 +42,19 @@ const sr = ScrollReveal({
     reset: true
 });
 
+/*========== modal ==========*/
+const open = document.getElementById("open");
+const modal__container = document.getElementById("modal__container");
+const close = document.getElementById("close");
+
+open.addEventListener('click', () => {
+    modal__container.classList.add('afficher')
+})
+
+close.addEventListener('click', () => {
+    modal__container.classList.remove('afficher')
+})
+
 /*========== surlignage animation ==========*/
 const sections = document.querySelectorAll('section[id]')
 
@@ -61,6 +74,7 @@ function scrollActive() {
     })
 }
 window.addEventListener('scroll', scrollActive)
+sr.reveal('.section-title ', {});
 
 /*scroll accueil*/
 sr.reveal('.accueil__title', {});
@@ -73,14 +87,27 @@ sr.reveal('.apropos__img', {});
 sr.reveal('.apropos__subtitle', { delay: 400 });
 sr.reveal('.apropos__texte', { delay: 400 });
 
+/*scroll etude*/
+sr.reveal('.etudes__img', {});
+sr.reveal('.etudes__subtitle', { delay: 400 });
+sr.reveal('.etudes__texte-title', { delay: 400 });
+sr.reveal('.etudes__texte', { delay: 400 });
+
 /*scroll compétences*/
 sr.reveal('.competences__subtitle', {});
 sr.reveal('.competences__texte', {});
 sr.reveal('.competences__data', { interval: 200 });
 sr.reveal('.competences__img', { delay: 600 });
 
+/*scroll stages*/
+sr.reveal('.stages__img', { interval: 200 });
+sr.reveal('.stages__subtitle', { delay: 400 });
+sr.reveal('.stages__texte', { delay: 400 });
+
 /*scroll projet*/
-sr.reveal('.projet__img', { interval: 200 });
+sr.reveal('.projets__img', { interval: 200 });
+sr.reveal('.projets__subtitle', { delay: 400 });
+sr.reveal('.projets__texte', { delay: 400 });
 
 /*scroll CONTACT*/
 sr.reveal('.contact__input', { interval: 200 });
