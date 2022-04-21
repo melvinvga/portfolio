@@ -83,29 +83,30 @@ sr.reveal('.accueil__img', { delay: 400 });
 sr.reveal('.accueil__social-icone', { interval: 200 });
 
 /*scroll apropos*/
-sr.reveal('.apropos__img', {});
+sr.reveal('.apropos__img', { delay: 400 });
 sr.reveal('.apropos__subtitle', { delay: 400 });
 sr.reveal('.apropos__texte', { delay: 400 });
 
 /*scroll etude*/
-sr.reveal('.etudes__img', {});
+sr.reveal('.etudes__img', { delay: 400 });
 sr.reveal('.etudes__subtitle', { delay: 400 });
 sr.reveal('.etudes__texte-title', { delay: 400 });
 sr.reveal('.etudes__texte', { delay: 400 });
 
 /*scroll compétences*/
-sr.reveal('.competences__subtitle', {});
-sr.reveal('.competences__texte', {});
-sr.reveal('.competences__data', { interval: 200 });
-sr.reveal('.competences__img', { delay: 600 });
+sr.reveal('.competences__subtitle', { delay: 400 });
+sr.reveal('.competences__texte', { delay: 400 });
+sr.reveal('.competences__data', { delay: 400 });
+sr.reveal('.competences__img', { delay: 400 });
 
 /*scroll stages*/
-sr.reveal('.stages__img', { interval: 200 });
+sr.reveal('.stages__img', { delay: 400 });
+sr.reveal('.stages__title', { delay: 400 });
 sr.reveal('.stages__subtitle', { delay: 400 });
 sr.reveal('.stages__texte', { delay: 400 });
 
 /*scroll projet*/
-sr.reveal('.projets__img', { interval: 200 });
+sr.reveal('.projets__img', { delay: 400 });
 sr.reveal('.projets__subtitle', { delay: 400 });
 sr.reveal('.projets__texte', { delay: 400 });
 
