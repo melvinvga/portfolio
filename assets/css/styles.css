@@ -449,11 +449,10 @@
                         border-radius: .5rem;
                         box-shadow: 0 4px 25px rgba(14, 36, 49, .15);
                     }
-                    
-                    .competences__data:hover {
+                    /* .competences__data:hover {
                         transform: scale(1.015);
                         box-shadow: 0 0 50px 0 #0a3f2f;
-                    }
+                    } */
                     
                     .competences__icone {
                         font-size: 2rem;
