@@ -34,13 +34,13 @@ function scrollUp() {
 }
 window.addEventListener('scroll', scrollUp)
 
-/*========== scroll revel animation ==========*/
+/*========== scroll revel animation ==========
 const sr = ScrollReveal({
     origin: 'top',
     distance: '80px',
     duration: 1500,
     reset: true
-});
+});*/
 
 /*========== modal ==========*/
 const open = document.getElementById("open");
