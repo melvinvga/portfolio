@@ -547,17 +547,17 @@
                         margin-bottom: 1rem;
                     }
                     
-                    .projets__img {
+                    .projets__texte {
+                        margin-bottom: 2.5rem;
+                    }
+                    
+                    .sprojets__img {
                         justify-self: center;
                     }
                     
                     .projets__img img {
                         width: 700px;
                         border-radius: .5rem;
-                    }
-                    
-                    .projets__texte {
-                        margin-bottom: 2.5rem;
                     }
                     
                     .projets__img img:hover {
