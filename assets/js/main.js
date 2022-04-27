@@ -106,7 +106,7 @@ sr.reveal('.stages__subtitle', { delay: 1 });
 sr.reveal('.stages__texte', { delay: 1 });
 
 /*scroll projet*/
-sr.reveal('.projets__img', { delay: 1 });
+sr.reveal('.projets__conteneur', { delay: 1 });
 sr.reveal('.projets__subtitle', { delay: 1 });
 sr.reveal('.projets__texte', { delay: 1 });
 
