@@ -89,6 +89,7 @@ sr.reveal('.apropos__texte', { delay: 1 });
 
 /*scroll etude*/
 sr.reveal('.etudes__img', { delay: 1 });
+sr.reveal('.etudes__data', { delay: 1 });
 sr.reveal('.etudes__subtitle', { delay: 1 });
 sr.reveal('.etudes__texte-title', { delay: 1 });
 sr.reveal('.etudes__texte', { delay: 1 });
