@@ -73,43 +73,43 @@ function scrollActive() {
         }
     })
 }
-window.addEventListener('scroll', scrollActive)
-sr.reveal('.section-title ', {});
+// window.addEventListener('scroll', scrollActive)
+// sr.reveal('.section-title ', {});
 
-/*scroll accueil*/
-sr.reveal('.accueil__title', {});
-sr.reveal('.bouton', { delay: 200 });
-sr.reveal('.accueil__img', { delay: 400 });
-sr.reveal('.accueil__social-icone', { interval: 200 });
+// /*scroll accueil*/
+// sr.reveal('.accueil__title', {});
+// sr.reveal('.bouton', { delay: 200 });
+// sr.reveal('.accueil__img', { delay: 400 });
+// sr.reveal('.accueil__social-icone', { interval: 200 });
 
-/*scroll apropos*/
-sr.reveal('.apropos__img', { delay: 1 });
-sr.reveal('.apropos__subtitle', { delay: 1 });
-sr.reveal('.apropos__texte', { delay: 1 });
+// /*scroll apropos*/
+// sr.reveal('.apropos__img', { delay: 1 });
+// sr.reveal('.apropos__subtitle', { delay: 1 });
+// sr.reveal('.apropos__texte', { delay: 1 });
 
-/*scroll etude*/
-sr.reveal('.etudes__img', { delay: 1 });
-sr.reveal('.etudes__data', { delay: 1 });
-sr.reveal('.etudes__subtitle', { delay: 1 });
-sr.reveal('.etudes__texte-title', { delay: 1 });
-sr.reveal('.etudes__texte', { delay: 1 });
+// /*scroll etude*/
+// sr.reveal('.etudes__img', { delay: 1 });
+// sr.reveal('.etudes__data', { delay: 1 });
+// sr.reveal('.etudes__subtitle', { delay: 1 });
+// sr.reveal('.etudes__texte-title', { delay: 1 });
+// sr.reveal('.etudes__texte', { delay: 1 });
 
-/*scroll compétences*/
-sr.reveal('.competences__subtitle', { delay: 1 });
-sr.reveal('.competences__texte', { delay: 1 });
-sr.reveal('.competences__data', { delay: 1 });
-sr.reveal('.competences__img', { delay: 1 });
+// /*scroll compétences*/
+// sr.reveal('.competences__subtitle', { delay: 1 });
+// sr.reveal('.competences__texte', { delay: 1 });
+// sr.reveal('.competences__data', { delay: 1 });
+// sr.reveal('.competences__img', { delay: 1 });
 
-/*scroll stages*/
-sr.reveal('.stages__img', { delay: 1 });
-sr.reveal('.stages__title', { delay: 1 });
-sr.reveal('.stages__subtitle', { delay: 1 });
-sr.reveal('.stages__texte', { delay: 1 });
+// /*scroll stages*/
+// sr.reveal('.stages__img', { delay: 1 });
+// sr.reveal('.stages__title', { delay: 1 });
+// sr.reveal('.stages__subtitle', { delay: 1 });
+// sr.reveal('.stages__texte', { delay: 1 });
 
-/*scroll projet*/
-sr.reveal('.projets__conteneur', { delay: 1 });
-sr.reveal('.projets__subtitle', { delay: 1 });
-sr.reveal('.projets__texte', { delay: 1 });
+// /*scroll projet*/
+// sr.reveal('.projets__conteneur', { delay: 1 });
+// sr.reveal('.projets__subtitle', { delay: 1 });
+// sr.reveal('.projets__texte', { delay: 1 });
 
-/*scroll CONTACT*/
-sr.reveal('.contact__input', { interval: 200 });
+// /*scroll CONTACT*/
+// sr.reveal('.contact__input', { interval: 200 });
