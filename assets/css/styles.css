@@ -112,6 +112,10 @@
                             box-sizing: border-box;
                         }
                         
+                        mask {
+                            mask-type: alpha;
+                        }
+                        
                         html {
                             scroll-behavior: smooth;
                         }
@@ -316,10 +320,6 @@
                         .accueil__blob {
                             animation: change3 100s infinite;
                         }
-                        
-                        .accueil__blob-img {
-                            width: 170px;
-                        }
                         /*boutons*/
                         
                         button {
@@ -354,9 +354,9 @@
                         .bouton__modal {
                             position: relative;
                             top: -2.2rem;
-                            left: 33.1rem;
+                            left: 33.7rem;
                             animation: change2 100s infinite;
-                            padding: .0rem .55rem;
+                            padding: .0rem .60rem;
                             border-radius: .4rem;
                             z-index: 10;
                             transition: .4s;
@@ -367,11 +367,6 @@
                             transform: scale(1.1);
                             transition: 1s;
                             box-shadow: 0 10px 36px rgba(0, 0, 0, 0.4);
-                        }
-                        
-                        .bouton__modal-position {
-                            transform: rotate(45deg);
-                            font-size: 1.5rem;
                         }
                         /* ========== apropos ==========*/
                         
@@ -724,7 +719,7 @@
                             border-radius: .4rem;
                             opacity: 0;
                             pointer-events: none;
-                            transition: opacity 0.3 ease;
+                            transition: opacity 0.3s ease;
                         }
                         
                         .modal__container.afficher {
